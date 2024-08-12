@@ -104,7 +104,7 @@ Los datos nulos (7199) representan el 20% del total (36,000). Nuestro objetivo e
 
 9. Visualizar las variables categóricas:
 
-* Se utilizaron graficos de barra, torta, score cards, y diferentes tablas dinamicas  para la visualización de variables y exploración de datos en looker studio. 
+* Se utilizaron graficos de barra, circulares, score cards, y diferentes tablas dinamicas  para la visualización de variables y exploración de datos en looker studio. 
 
 10. Aplicar medidas de tendencia central y aplicar medidas de dispersión
 
