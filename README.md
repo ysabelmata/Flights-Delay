@@ -11,7 +11,7 @@ Un riesgo relativo igual a 1 sugiere que no hay diferencia en la incidencia entr
 - :gear: [Procesamiento y preparación de datos](#procesamiento-y-preparación-de-datos)
 - :bar_chart: [Visualización y Análisis de Datos](/Visualizacion/README.md)
 - :bookmark: [Pruebas y Resultados](/Jupiter_Notebook/README.md)
-- :heavy_check_mark: [Conclusiones y Recomendaciones](/Presentación/README.md)
+- :heavy_check_mark: [Conclusiones y Recomendaciones](/%20Presentacion%20%20/README.md)
 
 ## Introducción
 En el actual escenario financiero, la disminución de las tasas de interés ha generado un notable aumento en la demanda de crédito en el banco "Super Caja". Sin embargo, esta creciente demanda ha sobrecargado al equipo de análisis de crédito, que se encuentra actualmente inmerso en un proceso manual ineficiente y demorado para evaluar las numerosas solicitudes de préstamo. Frente a este desafío, se propone una solución innovadora: la automatización del proceso de análisis mediante avanzadas técnicas de análisis de datos. 
