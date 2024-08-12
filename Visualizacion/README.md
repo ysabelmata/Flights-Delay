@@ -1,3 +1,3 @@
 ## Contenido
 
-En este archivo podrás visualizar un resumen de la validación de hipótesis.
+En este archivo podrás visualizar un resumen del Perfil de Mal Pagador.
