@@ -1,27 +1,23 @@
 # Contenido
 
-En este archivo encontraras graficos, matriz de correlación, matriz de confusión y Modelo de regresión logistica para las diferentes variables del proyecto. 
+En este archivo encontraras graficos, matriz de correlación y graficos de regresión lineal. 
 
-## Qué es la regresión logística?:
+### Regresión Lineal
 
-La regresión logística es una técnica de análisis de datos que utiliza las matemáticas para encontrar las relaciones entre dos factores de datos. Luego, utiliza esta relación para predecir el valor de uno de esos factores basándose en el otro. Normalmente, la predicción tiene un número finito de resultados, como un sí o un no.
+La **regresión lineal** es una técnica estadística utilizada para entender y predecir la relación entre dos variables. Imagina que tienes una línea recta en un gráfico. La regresión lineal te ayuda a encontrar la mejor línea que describe cómo una variable cambia en función de otra.
 
-### ¿Por qué es importante la regresión logística?
+#### Concepto Básico:
+- **Variable independiente (X):** Es la variable que se supone que influye en la otra. Por ejemplo, la cantidad de horas estudiadas.
+- **Variable dependiente (Y):** Es la variable que se quiere predecir o explicar. Por ejemplo, la calificación en un examen.
 
-La regresión logística es una técnica importante en el campo de la inteligencia artificial y el machine learning (AI/ML). Los modelos de ML son programas de software que puede entrenar para realizar tareas complejas de procesamiento de datos sin intervención humana. Los modelos de ML creados mediante regresión logística ayudan a las organizaciones a obtener información procesable a partir de sus datos empresariales. Pueden usar esta información para el análisis predictivo a fin de reducir los costos operativos, aumentar la eficiencia y escalar más rápido. Por ejemplo, las empresas pueden descubrir patrones que mejoran la retención de los empleados o conducen a un diseño de productos más rentable.
+La ecuación de la regresión lineal es:
+\[ Y = a + bX \]
+- **a** es la intersección (donde la línea corta el eje Y).
+- **b** es la pendiente (indica cómo cambia Y cuando X cambia).
 
-A continuación, enumeramos algunos beneficios del uso de la regresión logística en comparación con otras técnicas de ML.
+#### Importancia:
+- **Predicción:** Te permite predecir valores de Y (como ventas futuras, temperatura, etc.) a partir de valores de X.
+- **Interpretación:** Ayuda a entender la fuerza y la dirección de la relación entre las variables.
+- **Toma de decisiones:** Es crucial en negocios, ciencia y muchas áreas para tomar decisiones informadas basadas en datos.
 
-Simplicidad
-Los modelos de regresión logística son matemáticamente menos complejos que otros métodos de ML. Por lo tanto, puede implementarlos incluso si nadie de su equipo tiene una profunda experiencia en ML.
-
-Velocidad
-Los modelos de regresión logística pueden procesar grandes volúmenes de datos a alta velocidad porque requieren menos capacidad computacional, como memoria y potencia de procesamiento. Esto los hace ideales para que las organizaciones que están empezando con proyectos de ML obtengan ganancias rápidas.
-
-Flexibilidad
-Puede usar la regresión logística para encontrar respuestas a preguntas que tienen dos o más resultados finitos. También puede usarlo para preprocesar datos. Por ejemplo, puede ordenar los datos con un amplio rango de valores, como las transacciones bancarias, en un rango de valores más pequeño y finito mediante la regresión logística. A continuación, puede procesar este conjunto de datos más pequeño mediante el uso de otras técnicas de ML para obtener un análisis más preciso.
-
-Visibilidad
-El análisis de regresión logística ofrece a los desarrolladores una mayor visibilidad de los procesos de software internos que otras técnicas de análisis de datos. La solución de problemas y la corrección de errores también son más fáciles porque los cálculos son menos complejos.
-
-Las empresas financieras tienen que analizar las transacciones financieras en busca de fraudes y evaluar las solicitudes de préstamos y seguros en busca de riesgos. Estos problemas son adecuados para un modelo de regresión logística porque tienen resultados discretos, como alto riesgo o bajo riesgo y fraudulento o no fraudulento. 
+La regresión lineal es una herramienta sencilla pero poderosa para analizar y predecir relaciones entre variables, lo que la hace fundamental en el análisis de datos.
