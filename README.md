@@ -1,7 +1,6 @@
-## Riesgo Relativo: "Super Caja" 
+## Flight Delay : "Vuelos EEUU Enero 2023" 
 
-El riesgo relativo es una medida estadística que proporciona una indicación de cuánto más probable es que ocurra un resultado en el grupo expuesto en comparación con el grupo no expuesto. 
-Un riesgo relativo igual a 1 sugiere que no hay diferencia en la incidencia entre los dos grupos, mientras que un riesgo relativo mayor que 1 indica un mayor riesgo en el grupo expuesto, y un riesgo relativo menor que 1 indica un menor riesgo en el grupo expuesto.
+
 
 ## Temas
 
