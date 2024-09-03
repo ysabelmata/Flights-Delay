@@ -9,7 +9,7 @@
 - </> [Lenguajes](#lenguajes)
 - :gear: [Procesamiento y preparación de datos](#procesamiento-y-preparación-de-datos)
 - :bar_chart: [Visualización y Análisis de Datos](/Visualizacion/README.md)
-- :bookmark: [Pruebas y Resultados](/Jupiter_Notebook/README.md)
+- :bookmark: [Pruebas y Resultados](/Google%20_colab/README.md)
 - :heavy_check_mark: [Conclusiones y Recomendaciones](/Presentacion/README.md)
 
 ## Introducción
