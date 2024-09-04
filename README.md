@@ -148,7 +148,7 @@ Analizar y predecir los retrasos de vuelos mediante técnicas de análisis de da
 
   - **Conclusión:** Se valida la hipótesis. La causa de demora con mayor riesgo relativo es la demora del operador.
 
-18. **Regresión lineal_:**
+18. **Regresión lineal:**
 
     - Se aplicó la técnica de regresión lineal para entender la relación entre el tiempo de retraso de llegada de un vuelo y las diversas causas de retraso representadas por las variables del análisis. Para más información, puedes revisar este documento: [Pruebas y Resultados](/Google%20_colab/Proyecto4.ipynb).
 
