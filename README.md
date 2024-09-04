@@ -21,30 +21,30 @@ Analizar y predecir los retrasos de vuelos mediante técnicas de análisis de da
 
 1. Procesar y preparar la base de datos:
 
-Conectar/importar datos a otras herramientas
+  Conectar/importar datos a otras herramientas
 
 * Se creó el proyecto4-flightdelay y el conjunto de datos Dataset en BigQuery.
 * Tablas importadas: DOT_CODE_DICTIONARY, AIRLINE_CODE_DICTIONARY y flights_202301.
 
 2. Identificar y manejar valores nulos:
 
-Se identifican valores nulos a través de comandos SQL COUNTIF, IS NULL, AS.
+  Se identifican valores nulos a través de comandos SQL COUNTIF, IS NULL, AS.
 
-DOT_CODE_DICTIONARY: 4 valores nulos.
+  DOT_CODE_DICTIONARY: 4 valores nulos.
 
 * Se separó la columna Description, en Name y Description.
 *  Se eliminaron los siguientes códigos porque no hay información en la
 columna descripción, 22114, 22115, 22116, 22117.
 
-AIRLINE_CODE_DICTIONARY: 0 valores nulos.
+  AIRLINE_CODE_DICTIONARY: 0 valores nulos.
 * Se cambió el encabezado de la tabla de string_field_0 a AIRLINE_CODE, y de
 string_field_1 a NAME_AIRLINE, generando una vista de la tabla
 view_airline_code.
 
-Flights_202301:
+  Flights_202301:
 * DEP_TIME: 9,978 vuelos cancelados.
 *  TAXI_OUT: 10,197 vuelos cancelados algunos tienen DEP_TIME y
-DEP_DELAY.
+  DEP_DELAY.
 *  WHEELS_OFF: 10,197 son vuelos cancelados algunos tienen DEP_TIME
 y DEP_DELAY.
 * WHEELS_ON: 10,517 son vuelos cancelados.
@@ -63,29 +63,29 @@ y DEP_DELAY.
 *  DELAY_DUELATE_AIRCRAFT: 422,124 son los vuelos que llegan a
 tiempo.
 
-Se IMPUTARON los valores nulos con el valor de 0 ya que son datos que no se
-obtuvieron debido a que los vuelos fueron cancelados o desviados, esto nos
-permite mantener la consistencia de la naturaleza de los datos.
+  Se IMPUTARON los valores nulos con el valor de 0 ya que son datos que no se
+  obtuvieron debido a que los vuelos fueron cancelados o desviados, esto nos
+  permite mantener la consistencia de la naturaleza de los datos.
 
-Para las variables DELAY_DUE_CARRIER, DELAY_DUE_WEATHER,
-DELAY_DUE_NAS, DELAY_DUE_SECURITY, DELAY_DUELATE_AIRCRAFT,
-se IMPUTARON colocando el valor de 0, ya que el número de datos nulos
-corresponde a los vuelos que llegaron a tiempo a su destino. Los valores nulos
-no indican falta de datos sino la ausencia de un evento, por ejemplo, retraso por
-clima, retrasó por la aerolínea.
+  Para las variables DELAY_DUE_CARRIER, DELAY_DUE_WEATHER,
+  DELAY_DUE_NAS, DELAY_DUE_SECURITY, DELAY_DUELATE_AIRCRAFT,
+  se IMPUTARON colocando el valor de 0, ya que el número de datos nulos
+  corresponde a los vuelos que llegaron a tiempo a su destino. Los valores nulos
+  no indican falta de datos sino la ausencia de un evento, por ejemplo, retraso por
+  clima, retrasó por la aerolínea.
 
 3. Identificar y manejar valores duplicados:
 
-Se identifican valores duplicados a través de comandos SQL COUNT, GROUP BY,
-HAVING.
+  Se identifican valores duplicados a través de comandos SQL COUNT, GROUP BY,
+  HAVING.
 * DOT_CODE_DICTIONARY: no hay valores duplicados.
 * AIRLINE_CODE_DICTIONARY: no hay valores duplicados.
 * flights_202301: no hay valores duplicados.
 
 4. Identificar y manejar datos fuera del alcance del análisis: 
 
-Se manejan variables que no son útiles para el análisis a través de comandos SQL SELECT
-, EXCEPT.
+  Se manejan variables que no son útiles para el análisis a través de comandos SQL SELECT
+  , EXCEPT.
 Se excluyen del análisis las variables DELAY_DUE_CARRIER,DELAY_DUE_WEATHER, DELAY_DUE_NAS, DELAY_DUE_SECURITY,DELAY_DUELATE_AIRCRAFT, porque tienen muchos datos nulos, en su lugar
 se utilizan las variables en las que se imputaron los datos.
 
