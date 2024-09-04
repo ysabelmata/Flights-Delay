@@ -122,8 +122,8 @@ Analizar y predecir los retrasos de vuelos mediante técnicas de análisis de da
 14. **Calcular cuartiles, deciles o percentiles:**
 
     - Se utilizaron los comandos `WITH`, `NTILE`, `COUNT`, `GROUP BY`, `MIN`, `MAX`, `JOIN` para calcular los cuartiles de la variable `ARR_DELAY` tanto para los vuelos demorados como para el consolidado con todos los vuelos. Se contabilizó el número de vuelos por cuartil, el total de vuelos retrasados, y se calculó el rango de cada cuartil.
-    - **Vuelos demorados**
-    - **Todos los vuelos**
+    Vuelos demorados.
+    Todos los vuelos.
 
 15. **Calcular correlación entre variables:**
 
