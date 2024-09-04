@@ -1,4 +1,6 @@
-## Contenido :mag: :chart_with_upwards_trend:
+# Dashboard :mag: :chart_with_upwards_trend:
+
+## Contenido :dart:
 
 En este archivo encontraras las pantallas con las graficas y dashboard del Análisis en Looker Studio.
 
